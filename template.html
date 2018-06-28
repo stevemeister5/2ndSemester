@@ -1,0 +1,13 @@
+<div ng-controller="InputController">
+	<!-- "Hello World!" -->
+	<input ng-bind="message"/>
+	<input ng-bind="message"/>
+</div>
+
+
+<script type="javascript">
+	function InputController () {
+		this.message = "Hello World!";
+	}
+	angular.controller('InputController', InputController);
+</script>	
